@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+
+}
+
+.log-in {
+    width: 330px;
+    height: 500px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: inset -20px 23px 15px #cbced1,
+        -20px 20px 15px #533d3d;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 24px;
+    letter-spacing: .25px;
+
+}
+
+.fields {
+    width: 100%;
+    padding: 50px 5px 5px 5px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.username,
+.password {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px #cbced1,
+        -8px -8px 8px #ffffff;
+}
+
+.submitbtn {
+    margin-bottom: 30px;
+    letter-spacing: .55px;
+    outline: mone;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #445010;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    transition: .5s;
+    background: #ecf0f3;
+    box-shadow:  3px 3px 8px #b1b1b1,
+         -8px -8px 8px #ffffff;
+}
+
+.submitbtn:hover {
+    background: #2c2525;
+    color: aliceblue;
+}
+
+.submitbtn:active {
+    background: #f80101;
+}
